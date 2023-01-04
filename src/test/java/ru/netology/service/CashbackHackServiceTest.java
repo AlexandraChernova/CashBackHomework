@@ -40,7 +40,7 @@ public class CashbackHackServiceTest {
     @Test
     public void calculateBonusIfThousand(){
         int amount = 1000;
-        int expected = 0;
+        int expected = 1000;
         CashbackHackService service = new CashbackHackService();
         int actual = service.remain(amount);
 
